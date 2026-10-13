@@ -1,0 +1,32 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "syn-doc-001",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference"
+    ]
+  },
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "34133-9",
+        "display": "Summary of episode note"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/syn-patient-001"
+  },
+  "date": "2026-10-05T12:00:00Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "https://example.org/docs/syn-doc-001.pdf",
+        "title": "Visit summary"
+      }
+    }
+  ]
+}
